@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adminWindow</class>
+ <widget class="QMainWindow" name="adminWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>411</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>411</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню админа:</string>
+    </property>
+    <addaction name="action_7"/>
+    <addaction name="action_8"/>
+    <addaction name="separator"/>
+    <addaction name="action_12"/>
+    <addaction name="separator"/>
+    <addaction name="action_15"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_7">
+   <property name="text">
+    <string>Уволить персонал</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Добавить персонал</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="text">
+    <string>Информация о заказах </string>
+   </property>
+  </action>
+  <action name="action_15">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
